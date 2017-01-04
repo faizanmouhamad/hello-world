@@ -251,7 +251,7 @@ body {
     text-align:center;
         position: absolute;
         width: 1205px;
-	margin-top:380px;
+	margin-top:180px;
 }
 #bibi{
 width:27px;
@@ -761,7 +761,64 @@ z-index : 1000;
     padding-left:15px;
     padding-right:15px;
 }
-
+ .bad{
+				 background-color:#F5F5F5;
+				 border-radius:16px;
+				 border:2px solid black;
+				 width:480px;height:250px;
+				 display:block;
+				 margin:auto;
+				 box-shadow: 2px 2px 2px black;
+			 }
+			 #fazaz{
+				float:left;
+				 margin-left:18px;
+				 margin-top:14px;
+				 width:120px;
+				 border-radius:30px;
+			 }
+			 #go{
+				float:right;
+				margin-right:95px;
+				margin-top:37px;
+			 }
+			 #poilu{
+			font-size:18px;
+			 }
+			 #bouli{
+				font-size:14px;
+			 }
+			 .bou{
+				 background-color:transparent;
+				 margin-left:5px;
+				 margin-top:10px;
+				 float:left;
+				 border:1px solid transparent;
+				 width:488px;
+				 height:100px;
+			 }
+			 #filo{
+			border:1px solid transparent;
+				 width:160px;
+				 height:100px;
+				 float:left;
+			 }
+			 #adre{
+			display:block;
+				 margin:auto;
+				 width:30px;
+				 margin-top:5px;
+			 }
+			 #adilo{
+			font-size:11px;
+			text-align:center;
+			 }
+			 #filouz{
+			border:1px solid transparent;
+				 width:143px;
+				 height:100px;
+				 float:left;
+			 }
 /* media queries */
  @media (max-width: 1000px){
        /* accueil */

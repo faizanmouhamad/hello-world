@@ -4,8 +4,68 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
-      <link rel='stylesheet' type="text/css" href="style01.css">
+      <link rel='stylesheet' type="text/css" href="style01.css" media="screen">
       <title>Contact</title>
+		 <style>
+			 .bad{
+				 background-color:#F5F5F5;
+				 border-radius:16px;
+				 border:2px solid black;
+				 width:480px;height:250px;
+				 display:block;
+				 margin:auto;
+				 box-shadow: 2px 2px 2px black;
+			 }
+			 #fazaz{
+				float:left;
+				 margin-left:18px;
+				 margin-top:14px;
+				 width:120px;
+				 border-radius:30px;
+			 }
+			 #go{
+				float:right;
+				margin-right:95px;
+				margin-top:37px;
+			 }
+			 #poilu{
+			font-size:18px;
+			 }
+			 #bouli{
+				font-size:14px;
+			 }
+			 .bou{
+				 background-color:transparent;
+				 margin-left:5px;
+				 margin-top:10px;
+				 float:left;
+				 border:1px solid transparent;
+				 width:488px;
+				 height:100px;
+			 }
+			 #filo{
+			border:1px solid transparent;
+				 width:160px;
+				 height:100px;
+				 float:left;
+			 }
+			 #adre{
+			display:block;
+				 margin:auto;
+				 width:30px;
+				 margin-top:5px;
+			 }
+			 #adilo{
+			font-size:11px;
+			text-align:center;
+			 }
+			 #filouz{
+			border:1px solid transparent;
+				 width:143px;
+				 height:100px;
+				 float:left;
+			 }
+		 </style>
    </head>
     <body>
    <nav>
@@ -24,7 +84,7 @@
          </ul>
       </nav>
       <h3 id="bod">
-         Pour tout renseignements ou questions, veuillez laisser vos coordonnées ainsi que votre message dans le formulaire ci-dessous.
+         Pour tout renseignements ou questions, veuillez laisser vos coordonnées ainsi que votre message dans le formulaire ci-dessous :
       </h3>
       <form class="fourm" method="post" action="http://www.iut-fbleau.fr/sitebp/post.php" >
          <fieldset class="fset">
@@ -54,33 +114,33 @@ Pour accéder à mes coordonnées, veuillez cliquer
 <div id="koliz">
     <div id="bobibo">
         <label id="ca" for="case" class="zibalo">Fermer</label>
-       <section class="bad" style="background-color:#F5F5F5;border-radius:16px;border:2px solid black;width:480px;height:250px;display:block;margin:auto;box-shadow: 2px 2px 2px black;">
+       <section class="bad" >
 	<article>
-     <img src="./assets/img/moi.jpg" alt="description" style="float:left;margin-left:18px;margin-top:14px;width:120px;border-radius:30px"/>
-       <p style="float:right;margin-right:95px;margin-top:37px">
-         <b style="font-size:18px;">Faizan Mouhamad</b><br/>
-     <i style="font-size:14px">Etudiant en 1ère année de DUT<br/> Informatique</i>
+     <img id="fazaz" src="./assets/img/moi.jpg" alt="description"/>
+       <p id="go">
+         <b id="poilu" >Faizan Mouhamad</b><br/>
+     <i id="bouli">Etudiant en 1ère année de DUT<br/> Informatique</i>
        </p>
 	</article>
-	<section class="bou" style="background-color:transparent;margin-left:5px;margin-top:10px;float:left;border:1px solid transparent;width:488px;height:100px;">
-	   <article style="border:1px solid transparent;width:160px;height:100px;float:left">
-  <img src="./assets/img/po.png" alt="description" style="display:block;margin:auto;width:30px;margin-top:5px;"/> <p style="font-size:11px;text-align:center;">
+	<section class="bou">
+	   <article id="filo">
+  <img id="adre" src="./assets/img/po.png" alt="description" /> <p id="adilo">
         <b> 143, avenue Jean Jaurès<br/>
   77176 Savigny-le-Temple<br/>
     France</b>
        </p>
        <br/>
 	   </article>
-	   <article style="border:1px solid transparent;width:160px;height:100px;float:left">
-  <img src="./assets/img/ma.png" alt="description" style="display:block;margin:auto;width:30px;margin-top:5px;"/>
+	   <article id="filo">
+  <img id="adre" src="./assets/img/ma.png" alt="description" />
         <p style="font-size:11px;text-align:center;">
      <b>   fmouhamad@hotmail.fr<br/>
           faizan.mouhamad@etu.u-pec.fr</b>
        </p>
        </article>
-         <article style="border:1px solid transparent;width:143px;height:100px;float:left">
-  <img src="./assets/img/smp.png" alt="description" style="display:block;margin:auto;width:30px;margin-top:5px;"/>
-       <p style="font-size:11px;text-align:center;">
+         <article id="filouz" >
+  <img id="adre" src="./assets/img/smp.png" alt="description"/>
+       <p id="adilo">
 	<b> +33 1 64.10.82.67<br/>	 +33 6 46.25.90.63</b>
        </p>
   </article>
@@ -88,6 +148,10 @@ Pour accéder à mes coordonnées, veuillez cliquer
 	</section>
     </div>
 </div>
+			<br/>
+			<h3 id="bod">
+Vous pouvez également consulter la page de ma soeur en cliquant ci-dessous :  
+				<a href="http://html-samiraabidi385432.codeanyapp.com/abc.html" target="_blank"><img alt="description" id="samizou" src="./assets/img/sami.png" style="width:150px;display:block;margin:auto;margin-top:10px"></a></h3>
      
      <footer class="barre4">
            <a href="http://hello-world-faizanmouhamad968070.codeanyapp.com/" ><img id="bobo" alt="description" src="./assets/img/homa.png"/></a>
