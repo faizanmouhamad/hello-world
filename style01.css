@@ -971,4 +971,101 @@ width: auto;
     width: auto;
     padding: 20px;
 }
+	 /*realinfo*/
+	 #thu {
+    font-size: 20px;
+}
+	 .table {
+    border: 5px solid #20B2AA;
+	border-radius:15px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 2px;
+	background-color:#FFFAFA;
+		 margin-bottom:35px;
+}
+	 #koda {
+    font-size: 30px;
+    text-align: center;
+}
+	 #sna {
+    font-size: 16px;
+    text-align: center;
+}
+	 .liz {
+    width: 200px;
+    margin: auto;
+}
+	 #bo{
+    width: 160px;
+}
+	 /*ci*/
+	 .barre3 {
+    background-color: #2F4F4F;
+    border: 3px solid #2F4F4F;
+    font-size: 9px;
+    text-align: center;
+		 position:inherit;
+    width: auto;
+		 margin-top:40px;
+}
+	 .responsive {
+    padding: 0 6px;
+		 float:none;
+    width: 65%;
+		 margin:auto;
+}
+	 /*contact*/
+	 .barre4 {
+    background-color: #2F4F4F;
+    border: 3px solid #2F4F4F;
+    font-size: 9px;
+    text-align: center;
+    position: inherit;
+    width: auto;
+    margin-top: 40px;
+}
+	 #bobibo {
+    width: auto;
+    height: auto;
+    background-color: #E6E6FA;
+    border: 6px solid #20B2AA;
+    border-radius: 15px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+		 left:auto;
+}
+/*galerie*/
+	 #fifi {
+    color: #4682B4;
+    font-size: 20px;
+}
+	 .gali1 {
+    cursor: default;
+    list-style: none;
+    border: 1px solid #DCDCDC;
+    width: auto;
+		 height:auto;
+float:none ;
+		 margin-bottom:510px;
+}
+.gali2 {
+    cursor: default;
+    list-style: none;
+    border: 1px solid #DCDCDC;
+    width: auto;
+	height:auto;
+float:none ;
+	margin-bottom:530px;
+}
+.gali3 {
+    cursor: default;
+    list-style: none;
+    border: 1px solid #DCDCDC;
+    width: auto;
+	height:auto;
+float:none;
+	margin-bottom:530px;
+}
        }
