@@ -126,7 +126,7 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
     padding-bottom: 7px;
-	  height:841px;
+	  height:auto;
 }
 #te {
     font-size: 15px;
@@ -322,23 +322,6 @@ padding-left:5px;
     padding: 5px;
     position: relative;
 }
-.gali1 a .preview {
-    display: none;
-}
-.gali1 a:hover .preview {
-    display: block;
-    position: absolute;
-    top: -33px;
-    left: -45px;
-    width: 200px;
-    height: 200px;
-    z-index: 1;
-}
-.gali1 .preview {
-    border-color: #000;
-    width: 200px;
-    height: 150px;
-}
 .gali1 li img{
     width: 100px;
     height: 100px;
@@ -347,10 +330,10 @@ padding-left:5px;
     width: 150px;
     height: 100px;
 }
-.gali2 a .preview1 {
+.gali1 a .preview, .gali2 a .preview1, .gali3 a .preview1{
     display: none;
 }
-.gali2 a:hover .preview1 {
+.gali1 a:hover .preview, .gali2 a:hover .preview1, .gali3 a:hover .preview1{
     display: block;
     position: absolute;
     top: -33px;
@@ -359,12 +342,12 @@ padding-left:5px;
     height: 175px;
     z-index: 1;
 }
-.gali2 .preview1 {
+.gali1 .preview, .gali2 .preview1, .gali3 .preview1{
     border-color: #000;
     width: 200px;
     height: 150px;
 }
-.gali2 {
+.gali2, .gali3{
     cursor: default;
     list-style: none;
     display: block;
@@ -373,7 +356,7 @@ padding-left:5px;
     width: 1050px;
     height: 270px;
 }
-.gali2 img {
+.gali2 img, .gali3 img{
     background: #fff;
     border-color: #aaa #ccc #ddd #bbb;
     border-style: solid;
@@ -383,55 +366,7 @@ padding-left:5px;
     vertical-align: top;
     height: 75px;
 }
-.gali2 li {
-    background: #eee;
-    border-color: #ddd #bbb #aaa #ccc;
-    border-style: solid;
-    border-width: 1px;
-    color: inherit;
-    display: inline;
-    float: left;
-    margin: 3px;
-    padding: 5px;
-    position: relative;
-}
-.gali3 a .preview1 {
-    display: none;
-}
-.gali3 a:hover .preview1 {
-    display: block;
-    position: absolute;
-    top: -33px;
-    left: -45px;
-    width: 300px;
-    height: 175px;
-    z-index: 1;
-}
-.gali3 .preview1 {
-    border-color: #000;
-    width: 200px;
-    height: 150px;
-}
-.gali3 {
-    cursor: default;
-    list-style: none;
-    display: block;
-    margin: auto;
-    border: 1px solid #DCDCDC;
-    width: 1050px;
-    height: 270px;
-}
-.gali3 img {
-    background: #fff;
-    border-color: #aaa #ccc #ddd #bbb;
-    border-style: solid;
-    border-width: 1px;
-    color: inherit;
-    padding: 2px;
-    vertical-align: top;
-    height: 75px;
-}
-.gali3 li {
+.gali2 li, .gali3 li{
     background: #eee;
     border-color: #ddd #bbb #aaa #ccc;
     border-style: solid;
@@ -620,19 +555,7 @@ padding-left:5px;
 	border-radius:10px;
    
 }
-#po {
-    width: 100%;
-    height: auto;
-}
-#po1 {
-    width: 100%;
-    height: auto;
-}
-#po2 {
-    width: 100%;
-    height: auto;
-}
-#po3 {
+#po, #po1, #po2, #po3{
     width: 100%;
     height: auto;
 }
@@ -731,13 +654,7 @@ padding-left:5px;
 				 height:100px;
 				 float:left;
 			 }
-#bod{
-	text-align:center;
-}
-#bod1{
-	text-align:center;
-}
-#bod2{
+#bod, #bod1, #bod2{
 	text-align:center;
 }
 #bod,#bod1,#bod2,
@@ -764,19 +681,7 @@ padding-left:5px;
     color: #008B8B;
     font-weight: bold;
 }
-#lbl1 {
-    margin-top: 10px;
-    display: block;
-}
-#lbl2 {
-    margin-top: 10px;
-    display: block;
-}
-#lbl3 {
-    margin-top: 10px;
-    display: block;
-}
-#lbl4 {
+#lbl1, #lbl2, #lbl3, #lbl4{
     margin-top: 10px;
     display: block;
 }
@@ -788,22 +693,13 @@ padding-left:5px;
     width: 200px;
     box-shadow: 1px 1px 2px #87CEFA inset;
 }
-#inpt {
+#inpt, #inpt1{
     width: 100px;
     margin-left: 20px;
     box-shadow: 1px 1px 1px #AFEEEE;
     cursor: pointer;
 }
-#inpt1 {
-    width: 100px;
-    margin-left: 20px;
-    box-shadow: 1px 1px 1px #AFEEEE;
-    cursor: pointer;
-}
-#inpt:hover {
-    background-color: #20B2AA;
-}
-#inpt1:hover {
+#inpt:hover, #inpt1:hover {
     background-color: #20B2AA;
 }
 .cvisit {
@@ -1046,10 +942,7 @@ width: auto;
     border: solid 14px #FFFAFA;
     float: right;
 }    
-       .moya:hover{
-	transform:scale(1.1);
-}
-.maya:hover{
+       .moya:hover, .maya:hover{
 	transform:scale(1.1);
 }
        #h3 {
@@ -1146,22 +1039,13 @@ width: auto;
 float:none ;
 		 margin-bottom:510px;
 }
-.gali2 {
+.gali2, .gali3 {
     cursor: default;
     list-style: none;
     border: 1px solid #DCDCDC;
     width: auto;
 	height:auto;
 float:none ;
-	margin-bottom:530px;
-}
-.gali3 {
-    cursor: default;
-    list-style: none;
-    border: 1px solid #DCDCDC;
-    width: auto;
-	height:auto;
-float:none;
 	margin-bottom:530px;
 }
        }
