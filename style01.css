@@ -445,6 +445,12 @@ margin-top: 18px
 margin-top: 10px;
 ;
 }
+#print{
+  width:27px;
+  display:block;
+  margin:auto;
+  margin-top:10px;
+}
 /* partie projetpro */
 .sect {
 display: block;
