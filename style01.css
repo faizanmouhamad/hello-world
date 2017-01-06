@@ -193,8 +193,9 @@ margin-left: 40px;
 background-color: #20B2AA;
 margin-top: 5px;
 }
-#k {
+#k, #k1, #k2, #k3, #k4{
 text-align: center;
+  font-family:"Arial, Helvetica", sans-serif;
 }
 #tabilama{
 width:380px;
@@ -334,7 +335,7 @@ display: block;
 position: absolute;
 top: -33px;
 left: -45px;
-width: 300px;
+width: auto;
 height: 175px;
 z-index: 1;
 }
