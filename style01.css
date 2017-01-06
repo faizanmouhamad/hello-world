@@ -710,6 +710,10 @@ width: 500px;
 margin-top: 80px;
 margin-right: 300px;
 }
+#mailin{
+  font-size:11px;
+  text-align:center;
+}
 .bad{
 background-image:url("./assets/img/api.jpg");
 color:white;
