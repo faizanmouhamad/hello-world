@@ -72,6 +72,9 @@ display: block;
 .map {
 display: block;
 margin: auto;
+border:1px solid transparent;
+width:300px;
+height:250px;
 }
 /* partie accueil */
 .sec {
@@ -97,7 +100,7 @@ float: left;
 width: auto;
 margin-top:7px;
 }
-#q1 {
+#q1,#q2,#q3{
 text-align: center;
 }
 .faiz {
@@ -165,12 +168,12 @@ display: block;
 border-radius: 18px;
 margin-bottom:20px;
 }
-#fra {
+#fra,#fra1,#fra2,#fra3,#fra4 {
 margin: auto;
 display: block;
 width: 120px;
 }
-#fra:hover {
+#fra:hover,#fra1:hover,#fra2:hover,#fra3:hover,#fra4:hover {
 transform: scale(1.15);
 }
 .sip {
@@ -197,7 +200,7 @@ margin-top: 5px;
 text-align: center;
   font-family:"Arial, Helvetica", sans-serif;
 }
-#tabilama{
+#tabilama,#tabilama1{
 width:380px;
 height:16px;
 border:1px solid #DCDCDC;
